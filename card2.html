@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 2</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+    .container{
+
+background-color: #8f8ae9;
+background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(163, 186, 201, 1) 45%, rgba(0, 212, 255, 1) 100%);
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+
+    .card{
+    
+    border-radius: 20px;
+    background-color: cornsilk;
+    width: 400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 30px;
+    }
+
+    .card img{
+        width: 100%;
+        height: 30%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    #paybutton{
+        background-color: rgb(3, 3, 34);
+        width: 80%;
+        height: 9%;
+        border-radius: 10px;
+        color: white;
+        box-shadow:rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .amountbox{
+        background-color: rgb(130, 233, 251);
+        height: 10%;
+        width: 80%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .textbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap : 15px;
+        width: 75%;
+    }
+    .cancle a{
+        text-decoration: none;
+        color: rgb(80, 80, 80);
+        font-weight: bold;
+        font-size: large;
+    }
+   .leftbox{
+    display: flex;
+    width: fit-content;
+    gap : 30px
+   }
+    .box1{
+        width: 40px;
+        height: 130px;
+    }
+    .box2 p{
+                  font-weight: bold;
+    }
+
+    .rightbox a{
+             align-items: center;
+             text-decoration: none;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="card">
+<img src="https://img.freepik.com/free-vector/technology-concept-landing-page-template_23-2148364045.jpg?t=st=1745533036~exp=1745536636~hmac=d17e2cdf0c2f4df4ca59377060465fb9f62e57424629eb1bb6e728b805c37d17" alt="">
+<div class="textbox">
+    <h2> Order Summary</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam impedit hic, possimus accusantium, expedita velit deserunt facere neque ab quisquam voluptates dolorem magni obcaecati! Fuga animi fugit perferendis dignissimos fugiat.</p>
+ 
+</div>
+
+  
+   <div class="amountbox">
+  <div class="leftbox">
+    <div class="box1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzch1gb2iIrVxXlmzQaaQevXau2CP9CwfxZg&s" alt="">
+        </div>
+        <div class="box2">
+        <p>Annual plan</p>
+        <p>&99.9/year</p>
+    </div>
+
+  </div>
+  <div class="rightbox">
+<a href="#"> Change </a>
+  </div>
+
+   </div>
+
+
+   
+<button id="paybutton">
+    Proceed to Payment
+</button>
+   
+
+
+   <div class="cancle">
+    <a href="#"> Cancle Order</a>
+   </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
