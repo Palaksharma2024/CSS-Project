@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+</head>
+<style>
+    .continer{
+        background-color: #8f8ae9;
+background-image: linear-gradient(90deg, rgb(24, 51, 132) 0%, rgb(35, 80, 110) 45%, rgb(44, 59, 142) 100%);
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+    .card{
+    background-color: rgb(49, 10, 78);
+    width: 750px;
+    height: 400px;
+    display: flex;
+    gap: 0%;
+    
+    }
+    .rightbox{
+        width: 50%;
+        border: 2px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+ 
+        padding-left: 30px;
+        
+    }
+    #h1text{
+        color: white;
+        font-weight: bold;
+        font-style:  Times , New Roman, serif;
+        padding-top: 20px;
+    }
+    #ptext{
+        color: rgb(205, 203, 203);
+        font-style:  Times , New Roman, serif;
+        font-size: small;
+        padding-right: 20px;
+    }
+   
+   .leftbox {
+    background-image:url("https://live.staticflickr.com/65535/53040027127_5bbf3a86e1_z.jpg")  ;
+    background-size: cover;
+    width: 50%;
+        border: 2px solid white;
+   }
+   #footer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: flex-start;
+    gap: 50px;
+   width: 80%;
+   
+   }
+ #K{
+   color: white;
+   font-size: large;
+   font-weight: bold;
+}
+#k2{
+    color: white;
+   font-size: large;
+   font-weight: bold;
+}
+#k3{
+    color: white;
+   font-size: large;
+   font-weight: bold;
+}
+#Comment{
+    font-size: small;
+    color: rgb(235, 229, 229);
+}
+
+
+</style>
+
+<body>
+    <div class="continer">
+        <div class="card">
+<div class="rightbox">
+       <h1 id="h1text">Get insights that help your business grow </h1>
+       <p id="ptext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad corrupti repellendus ab debitis corporis nostrum sunt perspiciatis incidunt consectetur cumque fugit maiores cum necessitatibus iusto dolorem explic
+       </p>
+       <div id="footer">
+        <div class="1">
+            <p id="K">10K+</p>
+            <p id="Comment">Comment</p>
+        </div>
+        <div class="2">
+            <p id="k2">214</p>
+            <p id="paid">Paid Users</p>
+        </div>
+        <div class="3">
+            <p id="k3">12M+</p>
+            <p id="views">Views</p>
+        </div>
+
+       </div>
+</div>
+ <div class="leftbox">
+
+</div>
+        </div>
+    </div>
+</body>
+</html>
