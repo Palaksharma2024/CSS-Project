@@ -1,0 +1,69 @@
+
+.continer {
+   background-image: url("https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    background-color: #deb887;
+    width: 800px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .bold-line {
+    border: none;
+    height: 5px;        /* Thickness (boldness) */
+    background-color: rgba(115, 8, 8, 0.623); /* Color of the line */
+    width: 80%;        /* Full width or any custom width like 50% */
+    margin: 20px 0;     /* Optional spacing above and below */
+  }
+
+  #h1{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    font-family: Impact, serif;
+  }
+  #Est{
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+
+  #h2coffe{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Impact, serif;
+  }
+  .my-image{
+    width: 50px ;
+    height: 50px ;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    font-size: 18px;
+  
+  }
+  .items{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 0 50px; 
+    height: 25px;
+  }
+  .footer a{
+    color: #121212;
+
+  }
+
+  .footer{
+    padding-top: 80px;
+  }
